@@ -1,0 +1,36 @@
+{
+  "input": "E:\\1_Projects\\DataScience\\Social Media User Analysis\\data\\raw\\instagram_usage_lifestyle.csv",
+  "input_rows": 1547896,
+  "training_rows": 1547896,
+  "training_sampled": false,
+  "feature_columns": [
+    "user_engagement_score",
+    "sessions_per_day",
+    "daily_active_minutes_instagram",
+    "average_session_length_minutes",
+    "likes_given_per_day",
+    "comments_written_per_day",
+    "stories_viewed_per_day",
+    "reels_watched_per_day",
+    "time_on_feed_per_day",
+    "time_on_reels_per_day",
+    "creator_post_ratio",
+    "broadcast_ratio",
+    "audience_ratio"
+  ],
+  "pca_components": 2,
+  "k": 4,
+  "random_state": 42,
+  "evaluation_k": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "silhouette_rows": 5000
+}

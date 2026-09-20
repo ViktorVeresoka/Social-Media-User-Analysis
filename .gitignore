@@ -1,0 +1,40 @@
+# Raw dataset: keep a local copy, do not redistribute it in Git.
+/data/raw/instagram_usage_lifestyle.csv
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Notebook autosaves
+.ipynb_checkpoints/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local environment settings (keep a shareable example if provided)
+.env
+.env.*
+!.env.example
+
+# Build artifacts and logs
+build/
+dist/
+*.egg-info/
+*.log
+
+# Keep source notebooks, documentation, and outputs/ tracked for review.

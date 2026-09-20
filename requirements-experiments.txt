@@ -1,0 +1,5 @@
+# Optional dependencies for separate_clusters_3D.ipynb.
+-r requirements.txt
+plotly==6.5.2
+umap-learn==0.5.11
+hdbscan==0.8.41
