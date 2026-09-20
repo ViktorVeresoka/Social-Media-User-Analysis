@@ -94,12 +94,11 @@ not cluster numbers.
 
 ## Running the project
 
-The raw dataset is excluded by `.gitignore`. Before running the analysis, obtain
-an authorized copy separately and place it at
-`data/raw/instagram_usage_lifestyle.csv` (create the directories if necessary),
-or pass its location with `--input`. The original source is currently unavailable,
-so a fresh clone alone is not sufficient to reproduce the computation.
-The saved tables and plots remain available in `outputs/` for review.
+The raw dataset is excluded from the repository due to its size. Download the
+dataset separately and place it at:
+`data/raw/instagram_usage_lifestyle.csv`
+Alternatively, pass a custom dataset path using `--input`.
+Saved tables and plots are available in `outputs/`.
 
 Verified with **Python 3.10.19** and the versions in `requirements.txt`.
 From the project root in PowerShell:
